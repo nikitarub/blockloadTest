@@ -1,0 +1,69 @@
+levelDB
+
+"данные_iter_level"
+10000
+10
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.33 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.35 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.34 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4                  1        1392421339 ns/op        52009704 B/op     710169 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.26 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             1000000000               0.51 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.25 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.25 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.85 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.84 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.86 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.83 ns/op            0 B/op          0 allocs/op
+
+"данные_iter_level"
+1000
+100
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.32 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.38 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.32 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.34 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.19 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.19 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.21 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.20 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.80 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.83 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              2000000000               0.41 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              1000000000               0.82 ns/op            0 B/op          0 allocs/op
+
+
+'l'
+1000
+100
+BenchmarkDeleteBatchLevelDB-4           1000000000               0.69 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.36 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.31 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteBatchLevelDB-4           2000000000               0.52 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             5000000000               0.15 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             1000000000               0.39 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             2000000000               0.30 ns/op            0 B/op          0 allocs/op
+BenchmarkFillBatchLevelDB-4             1000000000               0.51 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              5000000000               0.17 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              5000000000               0.16 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              5000000000               0.17 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterLevelDB-4              5000000000               0.16 ns/op            0 B/op          0 allocs/op
+
+
+
+
+
+
+
+
+
+tarantool ['t'] 1000
+BenchmarkDeleteIterTarantool-4          2000000000               0.15 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteIterTarantool-4          2000000000               0.09 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteIterTarantool-4          1000000000               0.20 ns/op            0 B/op          0 allocs/op
+BenchmarkDeleteIterTarantool-4          1000000000               0.24 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterTarantool-4            2000000000               0.13 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterTarantool-4            2000000000               0.24 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterTarantool-4            1000000000               0.20 ns/op            0 B/op          0 allocs/op
+BenchmarkFillIterTarantool-4            2000000000               0.11 ns/op            0 B/op          0 allocs/op
+PASS
